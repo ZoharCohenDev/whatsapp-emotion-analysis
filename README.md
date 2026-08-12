@@ -4,7 +4,7 @@ Final project for the **Natural Language Processing** course at
 **Reichman University, 2026**.
 
 **Authors:**  
-Roni Twito 
+Roni Twito   
 Matan Zohar Cohen 
 
 ## Overview
