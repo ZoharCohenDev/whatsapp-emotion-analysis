@@ -1,0 +1,10 @@
+{
+  "accuracy": 0.6535947712418301,
+  "precision": 0.6861702127659575,
+  "recall": 0.5633187772925764,
+  "f1": 0.6187050359712231,
+  "macro_f1": 0.6506698832550726,
+  "weighted_f1": 0.6507395234452334,
+  "best_model": "random_forest",
+  "experiment_name": "pure_behavioral_baseline_v1"
+}

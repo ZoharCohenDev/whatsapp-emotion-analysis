@@ -1,0 +1,11 @@
+{
+  "loss": 0.15809615988297898,
+  "accuracy": 0.9803921568627451,
+  "precision": 0.9867256637168141,
+  "recall": 0.9737991266375546,
+  "f1": 0.9802197802197802,
+  "macro_f1": 0.980390667647687,
+  "weighted_f1": 0.9803910399514515,
+  "best_epoch": 4,
+  "experiment": "alephbert_continued_ablation_v1"
+}

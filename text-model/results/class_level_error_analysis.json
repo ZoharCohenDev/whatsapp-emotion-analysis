@@ -1,0 +1,274 @@
+{
+  "25pct": {
+    "prefix": "25pct",
+    "total_fixes": 44,
+    "total_regressions": 37,
+    "known_fixes": 44,
+    "known_regressions": 37,
+    "sanity_ok": true,
+    "class_breakdown": {
+      "interested": {
+        "n_true": 230,
+        "fixes": 32,
+        "regressions": 14,
+        "net": 18,
+        "both_right": 109,
+        "both_wrong": 75
+      },
+      "losing_interest": {
+        "n_true": 229,
+        "fixes": 12,
+        "regressions": 23,
+        "net": -11,
+        "both_right": 143,
+        "both_wrong": 51
+      }
+    },
+    "confidence_summary": {
+      "fixes": {
+        "n": 44,
+        "mean_e3_conf": 0.9362,
+        "mean_e2_conf": 0.724
+      },
+      "regressions": {
+        "n": 37,
+        "mean_e3_conf": 0.9187,
+        "mean_e2_conf": 0.7286
+      }
+    },
+    "confidence_by_class": {
+      "interested": {
+        "fixes_mean_e3_conf": 0.941,
+        "fixes_mean_e2_conf": 0.7254,
+        "regressions_mean_e3_conf": 0.8809,
+        "regressions_mean_e2_conf": 0.7084
+      },
+      "losing_interest": {
+        "fixes_mean_e3_conf": 0.9233,
+        "fixes_mean_e2_conf": 0.7202,
+        "regressions_mean_e3_conf": 0.9417,
+        "regressions_mean_e2_conf": 0.741
+      }
+    },
+    "contingency_by_class": {
+      "interested": {
+        "both_right": 109,
+        "both_wrong": 75,
+        "fix": 32,
+        "regression": 14,
+        "n_true": 230
+      },
+      "losing_interest": {
+        "both_right": 143,
+        "both_wrong": 51,
+        "fix": 12,
+        "regression": 23,
+        "n_true": 229
+      }
+    }
+  },
+  "50pct": {
+    "prefix": "50pct",
+    "total_fixes": 23,
+    "total_regressions": 23,
+    "known_fixes": 23,
+    "known_regressions": 23,
+    "sanity_ok": true,
+    "class_breakdown": {
+      "interested": {
+        "n_true": 230,
+        "fixes": 17,
+        "regressions": 10,
+        "net": 7,
+        "both_right": 147,
+        "both_wrong": 56
+      },
+      "losing_interest": {
+        "n_true": 229,
+        "fixes": 6,
+        "regressions": 13,
+        "net": -7,
+        "both_right": 174,
+        "both_wrong": 36
+      }
+    },
+    "confidence_summary": {
+      "fixes": {
+        "n": 23,
+        "mean_e3_conf": 0.9653,
+        "mean_e2_conf": 0.7637
+      },
+      "regressions": {
+        "n": 23,
+        "mean_e3_conf": 0.9259,
+        "mean_e2_conf": 0.807
+      }
+    },
+    "confidence_by_class": {
+      "interested": {
+        "fixes_mean_e3_conf": 0.9536,
+        "fixes_mean_e2_conf": 0.7451,
+        "regressions_mean_e3_conf": 0.8699,
+        "regressions_mean_e2_conf": 0.8661
+      },
+      "losing_interest": {
+        "fixes_mean_e3_conf": 0.9984,
+        "fixes_mean_e2_conf": 0.8163,
+        "regressions_mean_e3_conf": 0.9689,
+        "regressions_mean_e2_conf": 0.7615
+      }
+    },
+    "contingency_by_class": {
+      "interested": {
+        "both_right": 147,
+        "both_wrong": 56,
+        "fix": 17,
+        "regression": 10,
+        "n_true": 230
+      },
+      "losing_interest": {
+        "both_right": 174,
+        "both_wrong": 36,
+        "fix": 6,
+        "regression": 13,
+        "n_true": 229
+      }
+    }
+  },
+  "75pct": {
+    "prefix": "75pct",
+    "total_fixes": 17,
+    "total_regressions": 7,
+    "known_fixes": 17,
+    "known_regressions": 7,
+    "sanity_ok": true,
+    "class_breakdown": {
+      "interested": {
+        "n_true": 230,
+        "fixes": 14,
+        "regressions": 3,
+        "net": 11,
+        "both_right": 193,
+        "both_wrong": 20
+      },
+      "losing_interest": {
+        "n_true": 229,
+        "fixes": 3,
+        "regressions": 4,
+        "net": -1,
+        "both_right": 199,
+        "both_wrong": 23
+      }
+    },
+    "confidence_summary": {
+      "fixes": {
+        "n": 17,
+        "mean_e3_conf": 0.9637,
+        "mean_e2_conf": 0.8305
+      },
+      "regressions": {
+        "n": 7,
+        "mean_e3_conf": 0.9953,
+        "mean_e2_conf": 0.7493
+      }
+    },
+    "confidence_by_class": {
+      "interested": {
+        "fixes_mean_e3_conf": 0.9561,
+        "fixes_mean_e2_conf": 0.8231,
+        "regressions_mean_e3_conf": 0.9891,
+        "regressions_mean_e2_conf": 0.822
+      },
+      "losing_interest": {
+        "fixes_mean_e3_conf": 0.9992,
+        "fixes_mean_e2_conf": 0.8652,
+        "regressions_mean_e3_conf": 0.9999,
+        "regressions_mean_e2_conf": 0.6949
+      }
+    },
+    "contingency_by_class": {
+      "interested": {
+        "both_right": 193,
+        "both_wrong": 20,
+        "fix": 14,
+        "regression": 3,
+        "n_true": 230
+      },
+      "losing_interest": {
+        "both_right": 199,
+        "both_wrong": 23,
+        "fix": 3,
+        "regression": 4,
+        "n_true": 229
+      }
+    }
+  },
+  "100pct": {
+    "prefix": "100pct",
+    "total_fixes": 1,
+    "total_regressions": 5,
+    "known_fixes": 1,
+    "known_regressions": 5,
+    "sanity_ok": true,
+    "class_breakdown": {
+      "interested": {
+        "n_true": 230,
+        "fixes": 0,
+        "regressions": 0,
+        "net": 0,
+        "both_right": 229,
+        "both_wrong": 1
+      },
+      "losing_interest": {
+        "n_true": 229,
+        "fixes": 1,
+        "regressions": 5,
+        "net": -4,
+        "both_right": 203,
+        "both_wrong": 20
+      }
+    },
+    "confidence_summary": {
+      "fixes": {
+        "n": 1,
+        "mean_e3_conf": 0.9997,
+        "mean_e2_conf": 0.929
+      },
+      "regressions": {
+        "n": 5,
+        "mean_e3_conf": 0.9999,
+        "mean_e2_conf": 0.7558
+      }
+    },
+    "confidence_by_class": {
+      "interested": {
+        "fixes_mean_e3_conf": null,
+        "fixes_mean_e2_conf": null,
+        "regressions_mean_e3_conf": null,
+        "regressions_mean_e2_conf": null
+      },
+      "losing_interest": {
+        "fixes_mean_e3_conf": 0.9997,
+        "fixes_mean_e2_conf": 0.929,
+        "regressions_mean_e3_conf": 0.9999,
+        "regressions_mean_e2_conf": 0.7558
+      }
+    },
+    "contingency_by_class": {
+      "interested": {
+        "both_right": 229,
+        "both_wrong": 1,
+        "fix": 0,
+        "regression": 0,
+        "n_true": 230
+      },
+      "losing_interest": {
+        "both_right": 203,
+        "both_wrong": 20,
+        "fix": 1,
+        "regression": 5,
+        "n_true": 229
+      }
+    }
+  }
+}

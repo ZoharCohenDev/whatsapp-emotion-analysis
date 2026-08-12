@@ -1,0 +1,67 @@
+Statistical Comparison: E2 (text-only) vs E3 (text + behavioral)
+====================================================================
+Test set: 459 conversations (same split for all experiments)
+Bootstrap: 10,000 samples, seed=42
+McNemar: two-sided exact test (scipy.stats.binomtest)
+
+Macro-F1 results, confidence intervals, and significance:
+
+Prefix 25%:
+  E2 macro F1:   0.6264
+  E3 macro F1:   0.6445
+  Delta:         +1.82 pp
+  95% bootstrap CI: [-2.02, +5.88] pp
+  CI covers zero:   YES → inconclusive
+  P(E3 > E2):    0.822 (of bootstrap samples)
+  McNemar:       fixes=44, regressions=37, p≥0.05, not statistically significant
+  Net corrected: +7 conversations
+
+Prefix 50%:
+  E2 macro F1:   0.7484
+  E3 macro F1:   0.7492
+  Delta:         +0.08 pp
+  95% bootstrap CI: [-2.94, +3.01] pp
+  CI covers zero:   YES → inconclusive
+  P(E3 > E2):    0.526 (of bootstrap samples)
+  McNemar:       fixes=23, regressions=23, p≥0.05, not statistically significant
+  Net corrected: +0 conversations
+
+Prefix 75%:
+  E2 macro F1:   0.8693
+  E3 macro F1:   0.8911
+  Delta:         +2.18 pp
+  95% bootstrap CI: [+0.20, +4.36] pp
+  CI covers zero:   NO → directional evidence
+  P(E3 > E2):    0.981 (of bootstrap samples)
+  McNemar:       fixes=17, regressions=7, p≥0.05, not statistically significant
+  Net corrected: +10 conversations
+
+Prefix 100%:
+  E2 macro F1:   0.9520
+  E3 macro F1:   0.9432
+  Delta:         -0.88 pp
+  95% bootstrap CI: [-1.98, +0.00] pp
+  CI covers zero:   NO → directional evidence
+  P(E3 > E2):    0.022 (of bootstrap samples)
+  McNemar:       fixes=1, regressions=5, p≥0.05, not statistically significant
+  Net corrected: -4 conversations
+
+====================================================================
+CONSERVATIVE RESEARCH CONCLUSIONS
+====================================================================
+
+25%: At 25%, E3 shows a positive delta (+1.82pp) but this does not reach statistical significance (McNemar p=0.5052). The result is directionally positive but inconclusive.
+
+50%: At 50%, E3 shows a positive delta (+0.08pp) but this does not reach statistical significance (McNemar p=1.0000). The result is directionally positive but inconclusive.
+
+75%: At 75%, E3 shows a positive delta (+2.18pp) but this does not reach statistical significance (McNemar p=0.0639). The result is directionally positive but inconclusive.
+
+100%: At 100%, E3 underperforms E2 by -0.88pp (McNemar p=0.2188, n.s.). No reliable benefit from behavioral features at this prefix.
+
+OVERALL:
+The evidence for behavioral features improving early detection is
+statistically mixed. Claims of improvement should be limited to
+prefixes with both significant McNemar tests AND CIs that exclude zero.
+Differences below ~1pp on a 459-sample test set should be treated
+as potentially arising from sampling variance unless confirmed with
+multiple seeds or held-out datasets.

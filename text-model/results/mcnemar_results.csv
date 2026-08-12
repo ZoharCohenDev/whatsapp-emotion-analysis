@@ -1,0 +1,5 @@
+prefix_pct,b_e2_right_e3_wrong,c_e2_wrong_e3_right,n_disagreements,p_value,chi2_with_continuity,significant_at_0.05,significant_at_0.01,note
+25,37,44,81,0.505236,0.4444,False,False,Exact two-sided McNemar via scipy.stats.binomtest
+50,23,23,46,1.0,0.0217,False,False,Exact two-sided McNemar via scipy.stats.binomtest
+75,7,17,24,0.063915,3.375,False,False,Exact two-sided McNemar via scipy.stats.binomtest
+100,5,1,6,0.21875,1.5,False,False,Exact two-sided McNemar via scipy.stats.binomtest

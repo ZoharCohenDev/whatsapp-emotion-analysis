@@ -1,0 +1,186 @@
+{
+  "25pct": {
+    "bootstrap": {
+      "observed_e2_macro_f1": 0.6264,
+      "observed_e3_macro_f1": 0.6445,
+      "observed_delta": 0.0182,
+      "bootstrap_mean_delta": 0.0183,
+      "ci_95_lo": -0.0202,
+      "ci_95_hi": 0.0588,
+      "ci_95_lo_pp": -2.02,
+      "ci_95_hi_pp": 5.88,
+      "prop_e3_gt_e2": 0.8218,
+      "n_bootstrap": 10000,
+      "bootstrap_seed": 42
+    },
+    "mcnemar": {
+      "b_e2_right_e3_wrong": 37,
+      "c_e2_wrong_e3_right": 44,
+      "n_disagreements": 81,
+      "p_value": 0.505236,
+      "chi2_with_continuity": 0.4444,
+      "significant_at_0.05": false,
+      "significant_at_0.01": false,
+      "note": "Exact two-sided McNemar via scipy.stats.binomtest"
+    },
+    "error_summary": {
+      "both_right_count": 252,
+      "n_fixes": 44,
+      "n_regressions": 37,
+      "n_both_wrong": 126,
+      "net_corrected": 7
+    },
+    "confidence": {
+      "e2": {
+        "mean_conf_correct": 0.8908,
+        "mean_conf_incorrect": 0.8132,
+        "mean_conf_fixes": 0.724,
+        "mean_conf_regressions": 0.7286
+      },
+      "e3": {
+        "mean_conf_correct": 0.9819,
+        "mean_conf_incorrect": 0.9617,
+        "mean_conf_fixes": 0.9362,
+        "mean_conf_regressions": 0.9187
+      }
+    }
+  },
+  "50pct": {
+    "bootstrap": {
+      "observed_e2_macro_f1": 0.7484,
+      "observed_e3_macro_f1": 0.7492,
+      "observed_delta": 0.0008,
+      "bootstrap_mean_delta": 0.0008,
+      "ci_95_lo": -0.0294,
+      "ci_95_hi": 0.0301,
+      "ci_95_lo_pp": -2.94,
+      "ci_95_hi_pp": 3.01,
+      "prop_e3_gt_e2": 0.5258,
+      "n_bootstrap": 10000,
+      "bootstrap_seed": 42
+    },
+    "mcnemar": {
+      "b_e2_right_e3_wrong": 23,
+      "c_e2_wrong_e3_right": 23,
+      "n_disagreements": 46,
+      "p_value": 1.0,
+      "chi2_with_continuity": 0.0217,
+      "significant_at_0.05": false,
+      "significant_at_0.01": false,
+      "note": "Exact two-sided McNemar via scipy.stats.binomtest"
+    },
+    "error_summary": {
+      "both_right_count": 321,
+      "n_fixes": 23,
+      "n_regressions": 23,
+      "n_both_wrong": 92,
+      "net_corrected": 0
+    },
+    "confidence": {
+      "e2": {
+        "mean_conf_correct": 0.9436,
+        "mean_conf_incorrect": 0.8557,
+        "mean_conf_fixes": 0.7637,
+        "mean_conf_regressions": 0.807
+      },
+      "e3": {
+        "mean_conf_correct": 0.996,
+        "mean_conf_incorrect": 0.9764,
+        "mean_conf_fixes": 0.9653,
+        "mean_conf_regressions": 0.9259
+      }
+    }
+  },
+  "75pct": {
+    "bootstrap": {
+      "observed_e2_macro_f1": 0.8693,
+      "observed_e3_macro_f1": 0.8911,
+      "observed_delta": 0.0218,
+      "bootstrap_mean_delta": 0.0219,
+      "ci_95_lo": 0.002,
+      "ci_95_hi": 0.0436,
+      "ci_95_lo_pp": 0.2,
+      "ci_95_hi_pp": 4.36,
+      "prop_e3_gt_e2": 0.9811,
+      "n_bootstrap": 10000,
+      "bootstrap_seed": 42
+    },
+    "mcnemar": {
+      "b_e2_right_e3_wrong": 7,
+      "c_e2_wrong_e3_right": 17,
+      "n_disagreements": 24,
+      "p_value": 0.063915,
+      "chi2_with_continuity": 3.375,
+      "significant_at_0.05": false,
+      "significant_at_0.01": false,
+      "note": "Exact two-sided McNemar via scipy.stats.binomtest"
+    },
+    "error_summary": {
+      "both_right_count": 392,
+      "n_fixes": 17,
+      "n_regressions": 7,
+      "n_both_wrong": 43,
+      "net_corrected": 10
+    },
+    "confidence": {
+      "e2": {
+        "mean_conf_correct": 0.9848,
+        "mean_conf_incorrect": 0.8896,
+        "mean_conf_fixes": 0.8305,
+        "mean_conf_regressions": 0.7493
+      },
+      "e3": {
+        "mean_conf_correct": 0.9968,
+        "mean_conf_incorrect": 0.9877,
+        "mean_conf_fixes": 0.9637,
+        "mean_conf_regressions": 0.9953
+      }
+    }
+  },
+  "100pct": {
+    "bootstrap": {
+      "observed_e2_macro_f1": 0.952,
+      "observed_e3_macro_f1": 0.9432,
+      "observed_delta": -0.0088,
+      "bootstrap_mean_delta": -0.0089,
+      "ci_95_lo": -0.0198,
+      "ci_95_hi": 0.0,
+      "ci_95_lo_pp": -1.98,
+      "ci_95_hi_pp": 0.0,
+      "prop_e3_gt_e2": 0.0218,
+      "n_bootstrap": 10000,
+      "bootstrap_seed": 42
+    },
+    "mcnemar": {
+      "b_e2_right_e3_wrong": 5,
+      "c_e2_wrong_e3_right": 1,
+      "n_disagreements": 6,
+      "p_value": 0.21875,
+      "chi2_with_continuity": 1.5,
+      "significant_at_0.05": false,
+      "significant_at_0.01": false,
+      "note": "Exact two-sided McNemar via scipy.stats.binomtest"
+    },
+    "error_summary": {
+      "both_right_count": 432,
+      "n_fixes": 1,
+      "n_regressions": 5,
+      "n_both_wrong": 21,
+      "net_corrected": -4
+    },
+    "confidence": {
+      "e2": {
+        "mean_conf_correct": 0.9948,
+        "mean_conf_incorrect": 0.9507,
+        "mean_conf_fixes": 0.929,
+        "mean_conf_regressions": 0.7558
+      },
+      "e3": {
+        "mean_conf_correct": 0.9992,
+        "mean_conf_incorrect": 0.9991,
+        "mean_conf_fixes": 0.9997,
+        "mean_conf_regressions": 0.9999
+      }
+    }
+  }
+}
