@@ -8,3 +8,5 @@ huggingface/
 
 # Keep placeholder files so empty data/output directories still exist in git.
 !text-model/outputs/.gitkeep
+.DS_Store
+~$*.docx
