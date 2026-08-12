@@ -5,7 +5,6 @@ Final project for the **Natural Language Processing** course at
 
 **Authors:**  
 Roni Twito 
-
 Matan Zohar Cohen 
 
 ## Overview
